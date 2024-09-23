@@ -4,7 +4,8 @@ const { resolve } = require('path');
 
 const app = express();
 app.use(cors());
-const PORT = process.env.PORT || 3000;
+
+const port = 3000;
 
 app.use(express.static('static'));
 
